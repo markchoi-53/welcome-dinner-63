@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>제63회 변리사 시험 합격자 환영식사</title>
+  <meta name="description" content="2026. 10. 29. (목) 19:00 · 강남·역삼 인근 식당 · 특허법 박지환 · 상표법 최지환 · 민사소송법 곽준형 변리사">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="제63회 변리사 시험 합격자 환영식사">
+  <meta property="og:description" content="과목별 고득점자 · 동차 합격자 · 총점 고득점자를 초청합니다. 신청 10/28(수) 09:00~22:00">
+  <meta property="og:image" content="https://jhchoi9234-dev.github.io/welcome-dinner-63/assets/og-image.jpg">
+  <meta property="og:image:width" content="1080">
+  <meta property="og:image:height" content="1350">
+  <meta property="og:url" content="https://jhchoi9234-dev.github.io/welcome-dinner-63/">
+  <meta name="theme-color" content="#0F1730">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;700&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;700&display=swap"></noscript>
+  <link rel="preload" as="image" href="./assets/bg-poster.webp" type="image/webp" fetchpriority="high">
+  <style>
+    :root {
+      --navy-900: #0F1730;
+      --navy-800: #1B2440;
+      --navy-700: #26314F;
+      --gold-500: #D6B26C;
+      --gold-300: #ECD096;
+      --pale:     #C8BEA5;
+      --ink:      #0A1022;
+      --font-serif: 'Noto Serif KR', serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--navy-900);
+      color: var(--pale);
+      font-family: var(--font-serif);
+      font-weight: 400;
+      line-height: 1.7;
+      word-break: keep-all;
+      overflow-x: hidden;
+    }
+    a { color: inherit; }
+    :focus-visible { outline: 2px solid var(--gold-300); outline-offset: 3px; }
+    .wrap { width: 100%; max-width: 680px; margin: 0 auto; padding: 0 20px; }
+    .label {
+      display: inline-block;
+      color: var(--gold-500);
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: .3em;
+      text-indent: .3em;
+    }
+
+    /* 디바이더: 중앙 점 + 좌우 짧은 금선 */
+    .divider {
+      display: flex; align-items: center; justify-content: center; gap: 10px;
+      color: var(--gold-500); margin: 18px auto;
+    }
+    .divider::before, .divider::after { content: ""; width: 56px; height: 1px; background: var(--gold-500); }
+    .divider span { width: 5px; height: 5px; border-radius: 50%; background: var(--gold-500); }
+
+    /* 버튼 */
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      min-height: 52px; padding: 12px 36px;
+      font: 700 17px/1.3 var(--font-serif);
+      color: var(--navy-900); background: var(--gold-500);
+      border: 1px solid var(--gold-500); border-radius: 2px;
+      text-decoration: none; cursor: pointer;
+      transition: background-color .2s ease, border-color .2s ease, color .2s ease;
+    }
+    .btn:hover { background: var(--gold-300); border-color: var(--gold-300); }
+    .btn--ghost { background: transparent; color: var(--gold-300); font-weight: 500; }
+    .btn--ghost:hover { background: rgba(214,178,108,.12); color: var(--gold-300); }
+    .btn[aria-disabled="true"] {
+      background: transparent; color: var(--gold-500); border-color: var(--gold-500);
+      cursor: not-allowed; pointer-events: none; font-weight: 500;
+    }
+
+    /* 히어로 */
+    .hero {
+      position: relative; text-align: center;
+      padding: clamp(180px, 42vw, 260px) 0 56px;
+      background: var(--navy-900) url("./assets/bg-poster.jpg") center top / cover no-repeat;
+      background-image: image-set(url("./assets/bg-poster.webp") type("image/webp"), url("./assets/bg-poster.jpg") type("image/jpeg"));
+      opacity: 0; animation: heroFade 400ms ease-out forwards;
+    }
+    .hero::before {
+      content: ""; position: absolute; inset: 0; pointer-events: none;
+      background: linear-gradient(to bottom, rgba(15,23,48,0) 0%, rgba(15,23,48,.55) 45%, var(--navy-900) 100%);
+    }
+    .hero .wrap { position: relative; }
+    .hero__sub { margin: 0 0 8px; color: var(--gold-300); font-size: 16px; font-weight: 500; text-shadow: 0 1px 6px var(--ink); }
+    .hero__title { margin: 0; color: var(--gold-300); font-size: 40px; font-weight: 700; letter-spacing: .06em; line-height: 1.25; text-shadow: 0 2px 10px var(--ink); }
+    .hero__info { list-style: none; margin: 0; padding: 0; font-size: 15px; text-shadow: 0 1px 4px var(--ink); }
+    .hero__info li { margin: 8px 0; color: var(--gold-300); }
+    .hero__info b { color: var(--gold-500); font-weight: 500; letter-spacing: .25em; }
+    .hero__info b::after { content: "|"; margin: 0 10px 0 2px; letter-spacing: 0; opacity: .8; }
+    .hero__cta { margin-top: 32px; }
+    .hero__note { margin: 14px 0 0; color: var(--pale); font-size: 13px; line-height: 1.6; }
+    @keyframes heroFade { to { opacity: 1; } }
+
+    section { padding: 44px 0; }
+
+    /* 초청 대상 */
+    .invite { position: relative; padding: 36px 20px 30px; text-align: center; }
+    .invite::before, .invite::after { content: ""; position: absolute; border: 1px solid var(--gold-500); pointer-events: none; }
+    .invite::before { inset: 0; }
+    .invite::after { inset: 6px; }
+    .invite .label {
+      position: absolute; top: 0; left: 50%; transform: translate(-50%, -50%);
+      background: var(--navy-900); padding: 0 14px; font-size: 15px; z-index: 1;
+    }
+    .invite__list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; color: var(--gold-300); font-size: 22px; font-weight: 700; }
+    .invite__note { margin: 18px 0 0; font-size: 13px; color: var(--pale); }
+
+    /* 인사말 */
+    .greet { display: grid; gap: 24px; }
+    .greet__img { position: relative; border: 1px solid var(--gold-500); border-radius: 4px; overflow: hidden; aspect-ratio: 16 / 9; }
+    .greet__img img { display: block; width: 100%; height: 100%; object-fit: cover; }
+    .greet__img::after { content: ""; position: absolute; inset: 0; background: rgba(10,16,34,.22); }
+    .greet__text p { margin: 0 0 1.1em; font-size: 15.5px; line-height: 1.8; color: var(--gold-300); }
+    .greet__text p:last-of-type { margin-bottom: 0; }
+    .greet__text .label { margin-bottom: 12px; }
+    .greet__sign { margin: 20px 0 0; text-align: right; color: var(--gold-500); font-size: 14px; }
+
+    /* 문의 카드 */
+    .contact__head { text-align: center; margin-bottom: 24px; }
+    .contact__head p { margin: 8px 0 0; color: var(--pale); font-size: 15px; }
+    .cards { display: grid; gap: 14px; list-style: none; margin: 0; padding: 0; }
+    .card {
+      background: var(--navy-800); border: 1px solid var(--navy-700); border-radius: 4px;
+      padding: 24px 20px; text-align: center;
+      transition: border-color .2s ease, opacity 600ms ease-out, transform 600ms ease-out;
+    }
+    .card:hover { border-color: var(--gold-500); }
+    .card__subject { display: block; color: var(--gold-500); font-size: 13px; letter-spacing: .15em; }
+    .card__name { display: block; margin: 6px 0 16px; color: var(--gold-300); font-size: 20px; font-weight: 700; }
+    .card .btn { width: 100%; min-height: 46px; font-size: 15px; padding: 10px 16px; }
+
+    /* 신청 안내 */
+    .apply { text-align: center; }
+    .apply__period { margin: 10px 0 0; color: var(--gold-300); font-size: 24px; font-weight: 700; line-height: 1.4; }
+    .apply__period small { display: block; font-size: 15px; font-weight: 500; color: var(--gold-500); letter-spacing: .2em; margin-bottom: 4px; }
+    .apply .btn { margin-top: 24px; }
+    .apply__note { margin: 14px 0 0; font-size: 13px; color: var(--pale); }
+
+    /* 푸터 */
+    footer { padding: 32px 0 48px; text-align: center; font-size: 12.5px; color: var(--pale); line-height: 1.7; }
+    footer .wrap { border-top: 1px solid var(--gold-500); padding-top: 24px; }
+    footer p { margin: 0; }
+    footer .strong { color: var(--gold-300); font-weight: 500; margin-top: 6px; }
+    footer .copy { margin-top: 20px; opacity: .75; }
+
+    /* 모션 */
+    .reveal { opacity: 0; transform: translateY(16px); transition: opacity 600ms ease-out, transform 600ms ease-out; }
+    .reveal.is-visible { opacity: 1; transform: none; }
+    .card:nth-child(2) { transition-delay: 100ms; }
+    .card:nth-child(3) { transition-delay: 200ms; }
+    .card.is-visible { transition-delay: 0ms; }
+    .card:nth-child(2).is-visible { transition-delay: 100ms; }
+    .card:nth-child(3).is-visible { transition-delay: 200ms; }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+      .hero { opacity: 1; }
+      .reveal { opacity: 1; transform: none; }
+    }
+    @media (min-width: 640px) {
+      .hero { padding-top: clamp(220px, 32vw, 320px); }
+      .hero__title { font-size: 56px; }
+      .hero__info { font-size: 16px; }
+      .invite__list { flex-direction: row; justify-content: center; gap: 0; }
+      .invite__list li + li::before { content: "|"; margin: 0 22px; font-weight: 400; color: var(--gold-500); }
+      .greet { grid-template-columns: 1fr 1fr; align-items: center; }
+    }
+    @media (min-width: 900px) {
+      .contact .wrap { max-width: 960px; }
+      .cards { grid-template-columns: repeat(3, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="wrap">
+      <p class="hero__sub">제63회 변리사 시험 합격을 진심으로 축하드립니다</p>
+      <h1 class="hero__title">합격자 환영식사</h1>
+      <div class="divider" aria-hidden="true"><span></span></div>
+      <ul class="hero__info">
+        <li><b>일시</b>2026. 10. 29. (목) 19:00</li>
+        <li><b>장소</b>강남 · 역삼 인근 식당 (신청자분께 개별 안내)</li>
+        <li><b>참석</b>특허법 박지환 · 상표법 최지환 · 민사소송법 곽준형 변리사</li>
+      </ul>
+      <div class="hero__cta">
+        <a class="btn js-apply" href="#" target="_blank" rel="noopener">행사 참석신청</a>
+      </div>
+      <p class="hero__note">신청 기간 10/28(수) 09:00 ~ 22:00 · 신청 후 10/29(목) 오전 중 개별 연락드립니다</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="reveal" aria-labelledby="invite-label">
+      <div class="wrap">
+        <div class="invite">
+          <span class="label" id="invite-label">초청대상</span>
+          <ul class="invite__list">
+            <li>과목별 고득점자</li>
+            <li>동차 합격자</li>
+            <li>총점 고득점자</li>
+          </ul>
+          <p class="invite__note">※ 고득점 기준이 따로 있는 것은 아니니 부담 없이 신청해주세요</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="reveal" aria-labelledby="greet-label">
+      <div class="wrap greet">
+        <div class="greet__img">
+          <picture>
+            <source srcset="./assets/greeting.webp" type="image/webp">
+            <img src="./assets/greeting.jpg" alt="네이비 테이블 위의 초대장과 골드 리본, 만년필" width="1600" height="905" loading="lazy" decoding="async">
+          </picture>
+        </div>
+        <div class="greet__text">
+          <span class="label" id="greet-label">인사말</span>
+          <p>길고 치열했던 수험 생활을 끝까지 견뎌내고 합격이라는 결실을 맺으신 여러분께 진심으로 축하의 말씀을 드립니다.</p>
+          <p>강의실에서 뵙던 분들이 이제 '변리사님'이 되어 함께 설 수 있게 되었다는 것이 저희에게도 무척 기쁘고 뿌듯한 일입니다.</p>
+          <p>축하의 마음을 직접 전하고, 앞으로 변리사로서 함께 걸어갈 인연을 만들고자 작은 환영식사 자리를 마련했습니다.</p>
+          <p class="greet__sign">특허법 박지환 · 상표법 최지환 · 민사소송법 곽준형 변리사 드림</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact reveal" aria-labelledby="contact-label">
+      <div class="wrap">
+        <div class="contact__head">
+          <span class="label" id="contact-label">문의</span>
+          <p>궁금한 점은 각 강사에게 오픈카톡으로 편하게 문의해주세요</p>
+        </div>
+        <ul class="cards" id="cards"></ul>
+      </div>
+    </section>
+
+    <section class="apply reveal" aria-labelledby="apply-label">
+      <div class="wrap">
+        <div class="divider" aria-hidden="true"><span></span></div>
+        <p class="apply__period"><small id="apply-label">신청 기간</small>10/28(수) 09:00 ~ 22:00</p>
+        <a class="btn js-apply" href="#" target="_blank" rel="noopener">행사 참석신청</a>
+        <p class="apply__note">신청 후 10/29(목) 오전 중 개별 연락드립니다</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="reveal">
+    <div class="wrap">
+      <p>※ 특정 학원에서 주최하는 합격자 행사에 참여하실 때에는 행사 현장에서 계약(타학원 수기 제공·협력 금지 등)을 강제 또는 종용하는 행사인지 사전에 확인하시길 바랍니다.</p>
+      <p class="strong">본 행사에서는 어떠한 계약도 강제하지 않습니다.</p>
+      <p class="copy">© 2026 박지환 · 최지환 · 곽준형</p>
+    </div>
+  </footer>
+
+  <script>
+    const config = {
+      applyUrl:   "https://forms.gle/xzb9c2HL4VJgPjeN8",
+      applyOpen:  "2026-10-28T09:00:00+09:00",
+      applyClose: "2026-10-28T22:00:00+09:00",
+      openLabel:  "10/28(수) 09:00 신청 오픈 예정",
+      closedLabel: "신청이 마감되었습니다",
+      lecturers: [
+        { subject: "특허법",     name: "박지환 변리사", kakao: "https://open.kakao.com/o/s8Mg0xPf" },
+        { subject: "상표법",     name: "최지환 변리사", kakao: "https://open.kakao.com/o/s0ywExPf" },
+        { subject: "민사소송법", name: "곽준형 변리사", kakao: "https://open.kakao.com/o/s7Vhf5kh" },
+      ],
+    };
+
+    // 강사 카드 렌더링
+    (function () {
+      const ul = document.getElementById('cards');
+      config.lecturers.forEach(function (l) {
+        const li = document.createElement('li');
+        li.className = 'card reveal';
+        const subject = document.createElement('span');
+        subject.className = 'card__subject'; subject.textContent = l.subject;
+        const name = document.createElement('span');
+        name.className = 'card__name'; name.textContent = l.name;
+        const a = document.createElement('a');
+        a.className = 'btn btn--ghost'; a.href = l.kakao; a.target = '_blank'; a.rel = 'noopener';
+        a.textContent = '오픈카톡으로 문의';
+        a.setAttribute('aria-label', l.name + ' 오픈카톡으로 문의');
+        li.append(subject, name, a);
+        ul.appendChild(li);
+      });
+    })();
+
+    // 신청 버튼 상태 (KST 기준, 1분마다 재계산)
+    function getApplyState(now) {
+      const open = new Date(config.applyOpen).getTime();
+      const close = new Date(config.applyClose).getTime();
+      const t = (now instanceof Date ? now : new Date(now)).getTime();
+      if (t < open) return 'before';
+      if (t >= close) return 'closed';
+      return 'open';
+    }
+    function updateApplyButtons(now) {
+      const state = getApplyState(now || new Date());
+      document.querySelectorAll('.js-apply').forEach(function (btn) {
+        if (state === 'open') {
+          btn.textContent = '행사 참석신청';
+          btn.setAttribute('href', config.applyUrl);
+          btn.setAttribute('target', '_blank');
+          btn.setAttribute('rel', 'noopener');
+          btn.removeAttribute('aria-disabled');
+          btn.removeAttribute('tabindex');
+        } else {
+          btn.textContent = state === 'before' ? config.openLabel : config.closedLabel;
+          btn.removeAttribute('href');
+          btn.removeAttribute('target');
+          btn.setAttribute('aria-disabled', 'true');
+          btn.setAttribute('role', 'link');
+          btn.setAttribute('tabindex', '0');
+        }
+      });
+      return state;
+    }
+    updateApplyButtons();
+    setInterval(updateApplyButtons, 60 * 1000);
+
+    // 스크롤 등장 (IntersectionObserver)
+    (function () {
+      const items = document.querySelectorAll('.reveal');
+      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (reduce || !('IntersectionObserver' in window)) {
+        items.forEach(function (el) { el.classList.add('is-visible'); });
+        return;
+      }
+      const io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { e.target.classList.add('is-visible'); io.unobserve(e.target); }
+        });
+      }, { threshold: 0.15 });
+      items.forEach(function (el) { io.observe(el); });
+    })();
+  </script>
+</body>
+</html>
